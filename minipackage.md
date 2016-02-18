@@ -12,10 +12,13 @@ A minipackage is an npm package as follows:
    within `README.md`. The tests use Node.js' built-in `assert` module.
    An `npm `README.md`.test` script extracts and run the tests.
 
-4. All tests are end-to-end. If it is worth testing separately, it
+4. The package uses Semantic Versioning. The public API is exactly that
+   which appears in README examples.
+
+5. All tests are end-to-end. If it is worth testing separately, it
    belongs in a separate minipackage.
 
-5. The package repository contains dotfiles, if any, only for
+6. The package repository contains dotfiles, if any, only for
    configuring continuous integration and other testing services. Those
    files are excluded from the published package using a `files` array
    in `package.json`.
