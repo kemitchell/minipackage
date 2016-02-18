@@ -9,8 +9,8 @@ A minipackage is an npm package as follows:
    README is in CommonMark format.
 
 3. The package's tests are written literate-style, in fenced code blocks
-   within `README.md`. The tests use Node.js' built-in `assert` module.
-   An `npm `README.md`.test` script extracts and run the tests.
+   within README. The tests use Node.js' built-in `assert` module. An
+   `npm test` script extracts and run the tests.
 
 4. The package uses Semantic Versioning. The public API is exactly that
    which appears in README examples.
